@@ -1,0 +1,24 @@
+basePath: /
+host: localhost:4000
+info:
+  contact:
+    email: zxselimcan@icloud.com
+    name: API Support
+  description: A robust REST API for managing cattle farms
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  termsOfService: http://swagger.io/terms/
+  title: Cattle Farm Management API
+  version: "1.0"
+paths: {}
+schemes:
+- http
+- https
+securityDefinitions:
+  Bearer:
+    description: Enter the token with the `Bearer ` prefix, e.g. "Bearer abcde12345"
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

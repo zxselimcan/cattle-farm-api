@@ -1,0 +1,32 @@
+{
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "A robust REST API for managing cattle farms",
+        "title": "Cattle Farm Management API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "API Support",
+            "email": "zxselimcan@icloud.com"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:4000",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "Bearer": {
+            "description": "Enter the token with the `Bearer ` prefix, e.g. \"Bearer abcde12345\"",
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}
